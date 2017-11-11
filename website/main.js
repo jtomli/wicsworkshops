@@ -1,8 +1,6 @@
-// Let's add text to our About Me.
-$('#abouttext').text("This is WiCS Side Projects!!");
+// TODO: Let's add text to our About Me.
 
-// We can also create a new div AND set its contents without modifying the HTML File.
-$('#container').append("<div class='info' id='resumetext'> Resume is private </div>");
+// TODO: We can also create a new div AND set its contents without modifying the HTML File.
 
 
 /*Let's make our nav buttons listen to clicks! 
@@ -10,12 +8,5 @@ $('#container').append("<div class='info' id='resumetext'> Resume is private </d
  *event to the element with the id "home". When the "click" 
  *event occurs, we execute the callback (the function).
  * */
-$('#home').click( function () {
-  $('#hometext').css('color', 'blue');
-});
 
 // Same thing using different JavaScript syntax
-$('#about').click( () => {
-  $('.active').removeClass('active');
-  $('#abouttext').addClass('active');
-})

@@ -1,20 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans');
 
 body {
   background-color: #F4FFF8;
-  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 button {
-  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 #header {
-  display: flex;
+  /* TODO: Prettify */
   color: #1C3738;
-  font-size: 2em;
-  justify-content: center;
-  font-family: 'Amatic SC', cursive;
   
 }
 
@@ -28,9 +22,8 @@ button {
 }
 
 .info {
-  display: none;
+  /* TODO: hide the divs */
 }
 
 .active {
-  display: inherit;
 }
