@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans');
+
+body {
+  background-image: url("skyline.jpg");
+  background-size: 100%;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+button {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background: transparent;
+  border: none;
+  padding: 0.5em;
+  font-size: 1.3em;
+}
+
+#header {
+  display: flex;
+  color: #1C3738;
+  font-size: 2em;
+  justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.1em solid #1C3738;
+  border-bottom: 0.1em solid #1C3738;
+}
+
+.nav {
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.info {
+  display: none;
+  padding: 2em;
+}
+
+.active {
+  display: inherit;
+}
